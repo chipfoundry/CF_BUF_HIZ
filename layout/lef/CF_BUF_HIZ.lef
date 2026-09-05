@@ -1,0 +1,319 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO CF_BUF_HIZ
+  CLASS BLOCK ;
+  ORIGIN 0 0 ;
+  FOREIGN CF_BUF_HIZ 0 0 ;
+  SIZE 246.52 BY 419.97 ;
+  PIN tp
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 106.245 301.72 106.385 301.995 ;
+    END
+  END tp
+  PIN vgnd
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met1 ;
+        RECT 231.225 376.455 231.515 376.985 ;
+      LAYER met2 ;
+        RECT 231.225 376.455 231.515 376.985 ;
+      LAYER met3 ;
+        RECT 231.205 376.455 231.79 376.985 ;
+      LAYER met1 ;
+        RECT 228.235 376.455 229.115 376.985 ;
+      LAYER met2 ;
+        RECT 228.235 376.455 229.115 376.985 ;
+      LAYER met3 ;
+        RECT 228.235 376.455 231.79 376.985 ;
+        RECT 1.23 405.47 245.29 408.57 ;
+      LAYER met4 ;
+        RECT 20 0 23.1 419.97 ;
+        RECT 50 0 53.1 419.97 ;
+        RECT 80 0 83.1 419.97 ;
+        RECT 110 0 113.1 419.97 ;
+        RECT 140 0 143.1 419.97 ;
+        RECT 170 0 173.1 419.97 ;
+        RECT 200 0 203.1 419.97 ;
+        RECT 230 0 233.1 419.97 ;
+    END
+  END vgnd
+  PIN clk2_boost
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 104.545 301.72 104.685 301.995 ;
+    END
+  END clk2_boost
+  PIN clk1_boostr
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 105.01 301.72 105.15 301.995 ;
+    END
+  END clk1_boostr
+  PIN vbpt
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 223.495 184.62 223.98 184.76 ;
+        RECT 229.03 148.335 246.52 148.475 ;
+        RECT 225.08 184.61 225.55 184.75 ;
+    END
+  END vbpt
+  PIN vbpcis
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 224.955 183.95 225.625 184.09 ;
+    END
+  END vbpcis
+  PIN vbncis
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 222.635 160.29 223.105 160.43 ;
+    END
+  END vbncis
+  PIN vpwr
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met1 ;
+        RECT 230.725 376.455 231.015 376.985 ;
+      LAYER met2 ;
+        RECT 230.725 375.675 231.015 376.985 ;
+      LAYER met3 ;
+        RECT 216.31 375.675 231.035 376.155 ;
+      LAYER met1 ;
+        RECT 229.6 376.455 230.48 376.985 ;
+      LAYER met2 ;
+        RECT 229.6 375.675 230.48 376.985 ;
+      LAYER met3 ;
+        RECT 216.31 375.675 230.48 376.155 ;
+        RECT 1.23 410.27 245.29 413.37 ;
+      LAYER met4 ;
+        RECT 5 0 8.1 419.97 ;
+        RECT 35 0 38.1 419.97 ;
+        RECT 65 0 68.1 419.97 ;
+        RECT 95 0 98.1 419.97 ;
+        RECT 125 0 128.1 419.97 ;
+        RECT 155 0 158.1 419.97 ;
+        RECT 185 0 188.1 419.97 ;
+        RECT 215 0 218.1 419.97 ;
+    END
+  END vpwr
+  PIN vout
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 142.875 90.545 143.605 90.98 ;
+    END
+  END vout
+  PIN vbpci
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 229.03 150.015 246.52 150.155 ;
+    END
+  END vbpci
+  PIN vbnt
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 226.235 129.565 226.425 129.705 ;
+    END
+  END vbnt
+  PIN ibias
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 167.59 333.675 167.73 333.815 ;
+        RECT 167.59 313.53 167.73 313.67 ;
+        RECT 166.925 333.645 167.43 333.875 ;
+        RECT 166.79 313.515 167.295 313.745 ;
+    END
+  END ibias
+  PIN ion
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 104.89 0 105.06 15.235 ;
+    END
+  END ion
+  PIN iop
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 105.985 0 106.155 15.235 ;
+    END
+  END iop
+  PIN e_pd
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 226.17 379.6 226.32 379.875 ;
+      LAYER li1 ;
+        RECT 118.26 131.855 118.435 132.01 ;
+    END
+  END e_pd
+  PIN vbnci
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 226.235 127.89 226.425 128.03 ;
+    END
+  END vbnci
+  PIN vbpcid
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 230.66 92.515 246.52 92.655 ;
+    END
+  END vbpcid
+  PIN vbptd
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 230.66 93.365 246.52 93.505 ;
+    END
+  END vbptd
+  PIN vbnc
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 224.3 325.45 224.615 325.59 ;
+    END
+  END vbnc
+  PIN vbpc
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 225.725 278.09 225.935 278.23 ;
+    END
+  END vbpc
+  PIN en_pd
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 226.58 379.6 226.73 379.875 ;
+    END
+  END en_pd
+  PIN vbpb
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 217.16 224.6 217.565 224.795 ;
+    END
+  END vbpb
+  PIN vinp_n
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 102.775 300.555 102.92 300.71 ;
+    END
+  END vinp_n
+  PIN vinn_n
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 103.19 300.545 103.335 300.7 ;
+    END
+  END vinn_n
+  PIN vinp_na
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 102.415 300.555 102.56 300.71 ;
+    END
+  END vinp_na
+  PIN vinn_na
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 102.025 300.555 102.17 300.71 ;
+    END
+  END vinn_na
+  PIN vinn_p
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 101.285 299.845 101.43 300 ;
+    END
+  END vinn_p
+  PIN vinp_p
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 101.66 300.13 101.805 300.285 ;
+    END
+  END vinp_p
+  PIN e_na_boost
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 105.52 301.72 105.66 301.995 ;
+    END
+  END e_na_boost
+  PIN e_n_boost
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met1 ;
+        RECT 105.875 301.72 106.015 301.995 ;
+    END
+  END e_n_boost
+  OBS
+    LAYER li1 ;
+      RECT 0 0 246.52 419.97 ;
+    LAYER met1 ;
+      RECT 0 0 15 419.97 ;
+      RECT 231.52 0 246.52 419.97 ;
+      RECT 15 0 104.89 15 ;
+      RECT 105.06 0 105.985 15 ;
+      RECT 106.155 0 231.52 15 ;
+      RECT 15 404.97 231.52 419.97 ;
+    LAYER met2 ;
+      RECT 0 0 15 419.97 ;
+      RECT 231.52 0 246.52 92.515 ;
+      RECT 231.52 92.655 246.52 93.365 ;
+      RECT 231.52 93.505 246.52 148.335 ;
+      RECT 231.52 148.475 246.52 150.015 ;
+      RECT 231.52 150.155 246.52 419.97 ;
+      RECT 15 0 231.52 15 ;
+      RECT 15 404.97 231.52 419.97 ;
+  END
+END CF_BUF_HIZ
+
+END LIBRARY

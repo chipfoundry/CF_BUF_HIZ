@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="536" height="492" viewBox="0 0 536 492">
+<rect width="100%" height="100%" fill="white"/>
+<text x="268" y="22" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#111">CF_BUF_HIZ</text>
+<rect x="148" y="48" width="240" height="372" fill="#f7f7f7" stroke="#222" stroke-width="1.5"/>
+<text x="268" y="238" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333">CF_BUF_HIZ</text>
+<line x1="148" y1="69" x2="130" y2="69" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="73" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">tp</text>
+<line x1="148" y1="91" x2="130" y2="91" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="95" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">clk2_boost</text>
+<line x1="148" y1="113" x2="130" y2="113" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="117" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">clk1_boostr</text>
+<line x1="148" y1="135" x2="130" y2="135" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="139" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbpt</text>
+<line x1="148" y1="157" x2="130" y2="157" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="161" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbpci</text>
+<line x1="148" y1="179" x2="130" y2="179" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="183" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbnt</text>
+<line x1="148" y1="201" x2="130" y2="201" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="205" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">ibias</text>
+<line x1="148" y1="223" x2="130" y2="223" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="227" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">e_pd</text>
+<line x1="148" y1="245" x2="130" y2="245" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="249" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbnci</text>
+<line x1="148" y1="267" x2="130" y2="267" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="271" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbpcid</text>
+<line x1="148" y1="289" x2="130" y2="289" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="293" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbptd</text>
+<line x1="148" y1="311" x2="130" y2="311" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="315" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbpc</text>
+<line x1="148" y1="333" x2="130" y2="333" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="337" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">en_pd</text>
+<line x1="148" y1="355" x2="130" y2="355" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="359" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbpb</text>
+<line x1="148" y1="377" x2="130" y2="377" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="381" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">e_na_boost</text>
+<line x1="148" y1="399" x2="130" y2="399" stroke="#222" stroke-width="1.25"/>
+<text x="124" y="403" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">e_n_boost</text>
+<line x1="388" y1="113" x2="406" y2="113" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="117" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbpcis</text>
+<line x1="388" y1="135" x2="406" y2="135" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="139" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbncis</text>
+<line x1="388" y1="157" x2="406" y2="157" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="161" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vout</text>
+<line x1="388" y1="179" x2="406" y2="179" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="183" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">ion</text>
+<line x1="388" y1="201" x2="406" y2="201" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="205" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">iop</text>
+<line x1="388" y1="223" x2="406" y2="223" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="227" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vbnc</text>
+<line x1="388" y1="245" x2="406" y2="245" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="249" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vinp_n</text>
+<line x1="388" y1="267" x2="406" y2="267" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="271" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vinn_n</text>
+<line x1="388" y1="289" x2="406" y2="289" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="293" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vinp_na</text>
+<line x1="388" y1="311" x2="406" y2="311" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="315" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vinn_na</text>
+<line x1="388" y1="333" x2="406" y2="333" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="337" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vinn_p</text>
+<line x1="388" y1="355" x2="406" y2="355" stroke="#222" stroke-width="1.25"/>
+<text x="412" y="359" text-anchor="start" font-family="Menlo, Consolas, monospace" font-size="11" fill="#111">vinp_p</text>
+<line x1="160" y1="420" x2="160" y2="434" stroke="#222" stroke-width="1.25"/>
+<text x="160" y="448" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10" fill="#111">vpwr</text>
+<line x1="376" y1="420" x2="376" y2="434" stroke="#222" stroke-width="1.25"/>
+<text x="376" y="448" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="10" fill="#111">vgnd</text>
+</svg>

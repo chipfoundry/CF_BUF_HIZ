@@ -1,0 +1,24 @@
+info:
+  name: CF_BUF_HIZ
+  description: High-impedance differential input buffer (CF_BUF_HIZ) is a ChipFoundry
+    hard-macro blackbox on SkyWater 130 nm.
+  repo: https://github.com/chipfoundry/CF_BUF_HIZ
+  owner: ChipFoundry
+  license: proprietary
+  author: ChipFoundry
+  email: support@chipfoundry.io
+  version: 0.2.0
+  date: 9-5-2026
+  category: analog
+  tags:
+  - CF_BUF_HIZ
+  bus: n/a
+  type: hard
+  maturity: Production
+  width: '246.52'
+  height: '419.97'
+  technology: sky130
+  digital_supply_voltage: n/a
+  analog_supply_voltage: n/a
+  clock_freq_mhz: n/a
+  cell_count: '2'
