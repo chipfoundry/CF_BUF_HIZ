@@ -1,14 +1,14 @@
 // Structural PG wrapper. Analog leaf is CF_BUF_HIZ_core.
-// Customer rails are vpwr/vgnd; vendor east supplies and well taps are tied inside.
+// Customer rails are vpwr/vgnd; well taps vpb/vnb/vpbe are tied inside.
 module CF_BUF_HIZ (
     tp,
-    vpwr,
     vgnd,
     clk2_boost,
     clk1_boostr,
     vbpt,
     vbpcis,
     vbncis,
+    vpwr,
     vout,
     vbpci,
     vbnt,
@@ -33,13 +33,13 @@ module CF_BUF_HIZ (
     e_n_boost
 );
     input tp;
-    input vpwr;
     input vgnd;
     input clk2_boost;
     input clk1_boostr;
     input vbpt;
     inout vbpcis;
     inout vbncis;
+    input vpwr;
     output vout;
     input vbpci;
     input vbnt;

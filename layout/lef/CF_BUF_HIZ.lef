@@ -20,12 +20,6 @@ MACRO CF_BUF_HIZ
     USE GROUND ;
     PORT
       LAYER met1 ;
-        RECT 231.225 376.455 231.515 376.985 ;
-      LAYER met2 ;
-        RECT 231.225 376.455 231.515 376.985 ;
-      LAYER met3 ;
-        RECT 231.205 376.455 231.79 376.985 ;
-      LAYER met1 ;
         RECT 228.235 376.455 229.115 376.985 ;
       LAYER met2 ;
         RECT 228.235 376.455 229.115 376.985 ;
@@ -90,12 +84,6 @@ MACRO CF_BUF_HIZ
     USE POWER ;
     PORT
       LAYER met1 ;
-        RECT 230.725 376.455 231.015 376.985 ;
-      LAYER met2 ;
-        RECT 230.725 375.675 231.015 376.985 ;
-      LAYER met3 ;
-        RECT 216.31 375.675 231.035 376.155 ;
-      LAYER met1 ;
         RECT 229.6 376.455 230.48 376.985 ;
       LAYER met2 ;
         RECT 229.6 375.675 230.48 376.985 ;
@@ -153,7 +141,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 104.89 0 105.06 15.235 ;
+        RECT 104.89 15.07 105.06 15.235 ;
     END
   END ion
   PIN iop
@@ -161,7 +149,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 105.985 0 106.155 15.235 ;
+        RECT 105.985 15.07 106.155 15.235 ;
     END
   END iop
   PIN e_pd
@@ -300,9 +288,7 @@ MACRO CF_BUF_HIZ
     LAYER met1 ;
       RECT 0 0 15 419.97 ;
       RECT 231.52 0 246.52 419.97 ;
-      RECT 15 0 104.89 15 ;
-      RECT 105.06 0 105.985 15 ;
-      RECT 106.155 0 231.52 15 ;
+      RECT 15 0 231.52 15 ;
       RECT 15 404.97 231.52 419.97 ;
     LAYER met2 ;
       RECT 0 0 15 419.97 ;
