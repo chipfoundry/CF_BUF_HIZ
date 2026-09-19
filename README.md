@@ -21,14 +21,14 @@ Macro size is 246.52 × 419.97 µm (15 µm halo around analog leaf
 
 ```bash
 pip install cf-ipm
-ipm install CF_BUF_HIZ --version 0.2.0 --include-drafts
+ipm install CF_BUF_HIZ --version 0.2.1 --include-drafts
 ```
 
 Until the marketplace listing is published, install from a local catalog
 override the same way `cf-sensor-afe` does:
 
 ```bash
-ipm install CF_BUF_HIZ --version 0.2.0 --include-drafts --local-file ip/catalog.json
+ipm install CF_BUF_HIZ --version 0.2.1 --include-drafts --local-file ip/catalog.json
 ```
 
 Use `hdl/gl/CF_BUF_HIZ.v` as the customer blackbox, `layout/lef/CF_BUF_HIZ.lef`
@@ -113,3 +113,10 @@ In OpenLane / LibreLane, hook chip PDN with
 - Bias companion macros are not placed in the 1-macro-first characterization
   vehicle. A sensor AFE that also instantiates `CF_BGR` / `CF_ADC_SAR12` is a
   follow-on.
+
+## Tapeout History
+
+| Version | Date | Notes |
+|---|---|---|
+| 0.2.0 | 2026-09-05 | SRAM-style PG wrap around analog leaf `CF_BUF_HIZ_core`. |
+| 0.2.1 | 2026-09-18 | One Magic extract label per pin; do not east-extend disconnected analog slivers (`vbpt`). |
