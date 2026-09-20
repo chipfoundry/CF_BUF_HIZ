@@ -12,7 +12,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 106.245 301.72 106.385 301.995 ;
+        RECT 106.245 301.56 106.385 302.155 ;
     END
   END tp
   PIN vgnd
@@ -48,7 +48,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 104.545 301.72 104.685 301.995 ;
+        RECT 104.445 301.56 104.785 302.155 ;
     END
   END clk2_boost
   PIN clk1_boostr
@@ -56,7 +56,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 105.01 301.72 105.15 301.995 ;
+        RECT 105.01 301.56 105.15 302.155 ;
     END
   END clk1_boostr
   PIN vbpt
@@ -64,9 +64,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 223.495 184.62 223.98 184.76 ;
-        RECT 229.03 148.335 229.42 148.475 ;
-        RECT 225.08 184.61 225.55 184.75 ;
+        RECT 228.935 148.335 246.52 148.475 ;
     END
   END vbpt
   PIN vbpcis
@@ -74,7 +72,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 224.955 183.95 225.625 184.09 ;
+        RECT 224.955 183.825 225.625 184.215 ;
     END
   END vbpcis
   PIN vbncis
@@ -82,7 +80,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 222.635 160.29 223.105 160.43 ;
+        RECT 222.63 160.17 223.11 160.56 ;
     END
   END vbncis
   PIN vpwr
@@ -126,7 +124,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 229.03 150.015 229.42 150.155 ;
+        RECT 228.935 150.015 246.52 150.155 ;
     END
   END vbpci
   PIN vbnt
@@ -134,7 +132,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 226.235 129.565 226.425 129.705 ;
+        RECT 226.135 129.44 226.525 129.83 ;
     END
   END vbnt
   PIN ibias
@@ -142,10 +140,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 167.59 333.675 167.73 333.815 ;
-        RECT 167.59 313.53 167.73 313.67 ;
-        RECT 166.925 333.645 167.43 333.875 ;
-        RECT 166.79 313.515 167.295 313.745 ;
+        RECT 167.59 333.55 168.075 333.94 ;
     END
   END ibias
   PIN ion
@@ -153,7 +148,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 104.89 15.07 105.06 15.235 ;
+        RECT 104.89 14.91 105.06 15.4 ;
     END
   END ion
   PIN iop
@@ -161,7 +156,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 105.985 15.07 106.155 15.235 ;
+        RECT 105.985 14.91 106.155 15.4 ;
     END
   END iop
   PIN e_pd
@@ -169,7 +164,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 226.17 379.6 226.32 379.875 ;
+        RECT 226.075 379.46 226.415 380.015 ;
       LAYER li1 ;
         RECT 118.26 131.855 118.435 132.01 ;
     END
@@ -179,7 +174,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 226.235 127.89 226.425 128.03 ;
+        RECT 226.135 127.765 226.525 128.155 ;
     END
   END vbnci
   PIN vbpcid
@@ -187,7 +182,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 230.66 92.515 231.095 92.655 ;
+        RECT 230.61 92.515 246.52 92.655 ;
     END
   END vbpcid
   PIN vbptd
@@ -195,7 +190,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 230.66 93.365 231.095 93.505 ;
+        RECT 230.61 93.365 246.52 93.505 ;
     END
   END vbptd
   PIN vbnc
@@ -203,7 +198,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 224.3 325.45 224.615 325.59 ;
+        RECT 224.265 325.325 224.655 325.715 ;
     END
   END vbnc
   PIN vbpc
@@ -211,7 +206,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 225.725 278.09 225.935 278.23 ;
+        RECT 225.635 277.97 226.025 278.36 ;
     END
   END vbpc
   PIN en_pd
@@ -219,7 +214,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 226.58 379.6 226.73 379.875 ;
+        RECT 226.58 379.46 226.73 380.015 ;
     END
   END en_pd
   PIN vbpb
@@ -227,7 +222,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 217.16 224.6 217.565 224.795 ;
+        RECT 217.16 224.505 217.565 224.895 ;
     END
   END vbpb
   PIN vinp_n
@@ -235,7 +230,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 102.775 300.555 102.92 300.71 ;
+        RECT 102.775 300.345 102.92 300.92 ;
     END
   END vinp_n
   PIN vinn_n
@@ -243,7 +238,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 103.19 300.545 103.335 300.7 ;
+        RECT 103.095 300.335 103.435 300.91 ;
     END
   END vinn_n
   PIN vinp_na
@@ -251,7 +246,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 102.415 300.555 102.56 300.71 ;
+        RECT 102.415 300.345 102.56 300.92 ;
     END
   END vinp_na
   PIN vinn_na
@@ -259,7 +254,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 102.025 300.555 102.17 300.71 ;
+        RECT 102.025 300.345 102.17 300.92 ;
     END
   END vinn_na
   PIN vinn_p
@@ -267,7 +262,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 101.285 299.845 101.43 300 ;
+        RECT 101.285 299.635 101.43 300.21 ;
     END
   END vinn_p
   PIN vinp_p
@@ -275,7 +270,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 101.66 300.13 101.805 300.285 ;
+        RECT 101.66 299.92 101.805 300.495 ;
     END
   END vinp_p
   PIN e_na_boost
@@ -283,7 +278,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 105.52 301.72 105.66 301.995 ;
+        RECT 105.52 301.56 105.66 302.155 ;
     END
   END e_na_boost
   PIN e_n_boost
@@ -291,7 +286,7 @@ MACRO CF_BUF_HIZ
     USE SIGNAL ;
     PORT
       LAYER met1 ;
-        RECT 105.875 301.72 106.015 301.995 ;
+        RECT 105.875 301.56 106.015 302.155 ;
     END
   END e_n_boost
   OBS
@@ -300,11 +295,19 @@ MACRO CF_BUF_HIZ
     LAYER met1 ;
       RECT 0 0 15 419.97 ;
       RECT 231.52 0 246.52 419.97 ;
-      RECT 15 0 231.52 15 ;
+      RECT 15 0 104.89 15 ;
+      RECT 104.89 0 105.06 14.91 ;
+      RECT 105.06 0 105.985 15 ;
+      RECT 105.985 0 106.155 14.91 ;
+      RECT 106.155 0 231.52 15 ;
       RECT 15 404.97 231.52 419.97 ;
     LAYER met2 ;
       RECT 0 0 15 419.97 ;
-      RECT 231.52 0 246.52 419.97 ;
+      RECT 231.52 0 246.52 92.515 ;
+      RECT 231.52 92.655 246.52 93.365 ;
+      RECT 231.52 93.505 246.52 148.335 ;
+      RECT 231.52 148.475 246.52 150.015 ;
+      RECT 231.52 150.155 246.52 419.97 ;
       RECT 15 0 231.52 15 ;
       RECT 15 404.97 231.52 419.97 ;
   END
