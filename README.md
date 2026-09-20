@@ -17,18 +17,23 @@ Macro size is 246.52 × 419.97 µm (15 µm halo around analog leaf
 216.52 × 389.97 µm). Customer PG for chip PDN is `vpwr` / `vgnd`. Vendor pads
 `vpwr_a` / `vgnd_a` and well taps `vpb_a` / `vnb` are tied inside the wrap.
 
+The protected leaf has two physical top-level islands for each of `ibias` and
+`vbpt`. The public wrap places a via2 landing on both islands and joins each
+pair with local met3. Integrators still connect one `ibias` port and one
+`vbpt` port; no duplicate RTL pins or external straps are required.
+
 ## Installation
 
 ```bash
 pip install cf-ipm
-ipm install CF_BUF_HIZ --version 0.2.2 --include-drafts
+ipm install CF_BUF_HIZ --version 0.2.3 --include-drafts
 ```
 
 Until the marketplace listing is published, install from a local catalog
 override the same way `cf-sensor-afe` does:
 
 ```bash
-ipm install CF_BUF_HIZ --version 0.2.2 --include-drafts --local-file ip/catalog.json
+ipm install CF_BUF_HIZ --version 0.2.3 --include-drafts --local-file ip/catalog.json
 ```
 
 Use `hdl/gl/CF_BUF_HIZ.v` as the customer blackbox, `layout/lef/CF_BUF_HIZ.lef`
@@ -121,3 +126,4 @@ In OpenLane / LibreLane, hook chip PDN with
 | 0.2.0 | 2026-09-05 | SRAM-style PG wrap around analog leaf `CF_BUF_HIZ_core`. |
 | 0.2.1 | 2026-09-18 | One Magic extract label per pin; do not east-extend disconnected analog slivers (`vbpt`). |
 | 0.2.2 | 2026-09-19 | Fill waffle pin holes; grow `ibias` wrap seed for via2; relocate `vbpt` core label onto the vendor pad. |
+| 0.2.3 | 2026-09-20 | Join split `ibias` and `vbpt` islands on wrap met3 so one RTL pin shorts both pads. |

@@ -65,6 +65,13 @@ MACRO CF_BUF_HIZ
     PORT
       LAYER met2 ;
         RECT 228.935 148.335 246.52 148.475 ;
+        RECT 228.94 148.21 229.33 148.6 ;
+      LAYER met3 ;
+        RECT 225.115 148.195 229.345 148.615 ;
+        RECT 225.115 148.195 225.535 184.89 ;
+      LAYER met2 ;
+        RECT 225.08 184.485 225.565 184.875 ;
+        RECT 225.08 184.61 225.55 184.75 ;
     END
   END vbpt
   PIN vbpcis
@@ -141,6 +148,12 @@ MACRO CF_BUF_HIZ
     PORT
       LAYER met2 ;
         RECT 167.59 333.55 168.075 333.94 ;
+      LAYER met3 ;
+        RECT 167.625 333.535 168.045 333.955 ;
+        RECT 167.625 313.39 168.045 333.955 ;
+      LAYER met2 ;
+        RECT 167.59 313.405 168.075 313.795 ;
+        RECT 167.59 313.55 167.725 313.65 ;
     END
   END ibias
   PIN ion
