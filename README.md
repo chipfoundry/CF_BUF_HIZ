@@ -110,9 +110,11 @@ In OpenLane / LibreLane, hook chip PDN with
 
 ## Limitations and Open Issues
 
-- Verilog in `hdl/gl/CF_BUF_HIZ.v` is a structural wrap around an empty
-  `CF_BUF_HIZ_core` blackbox, not a SPICE-accurate model.
-- Liberty is not in this first wrap drop. P&R uses the wrap LEF.
+- Verilog in `hdl/gl/CF_BUF_HIZ.v` is a structural wrap around
+  `CF_BUF_HIZ_core`. P&R uses the empty `hdl/gl` blackbox. Functional sim
+  uses `verify/beh_model/CF_BUF_HIZ_core.v` (ideal unity-gain differential
+  buffer, not SPICE).
+- Liberty is not in this wrap drop. P&R uses the wrap LEF.
 - Companion foundry bias and pump cells stay foundry-only. This package
   ships the amplifier integration top.
 - Bias companion macros are not placed in the 1-macro-first characterization
@@ -126,4 +128,4 @@ In OpenLane / LibreLane, hook chip PDN with
 | 0.2.0 | 2026-09-05 | SRAM-style PG wrap around analog leaf `CF_BUF_HIZ_core`. |
 | 0.2.1 | 2026-09-18 | One Magic extract label per pin; do not east-extend disconnected analog slivers (`vbpt`). |
 | 0.2.2 | 2026-09-19 | Fill waffle pin holes; grow `ibias` wrap seed for via2; relocate `vbpt` core label onto the vendor pad. |
-| 0.2.3 | 2026-09-20 | Join split `ibias` and `vbpt` islands on wrap met3 so one RTL pin shorts both pads. |
+| 0.2.3 | 2026-09-20 | Join split `ibias` and `vbpt` islands on wrap met3; ship an ideal `verify/beh_model` core. |
