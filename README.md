@@ -26,14 +26,14 @@ pair with local met3. Integrators still connect one `ibias` port and one
 
 ```bash
 pip install cf-ipm
-ipm install CF_BUF_HIZ --version 0.2.3 --include-drafts
+ipm install CF_BUF_HIZ --version 0.2.4 --include-drafts
 ```
 
 Until the marketplace listing is published, install from a local catalog
 override the same way `cf-sensor-afe` does:
 
 ```bash
-ipm install CF_BUF_HIZ --version 0.2.3 --include-drafts --local-file ip/catalog.json
+ipm install CF_BUF_HIZ --version 0.2.4 --include-drafts --local-file ip/catalog.json
 ```
 
 Use `hdl/gl/CF_BUF_HIZ.v` as the customer blackbox, `layout/lef/CF_BUF_HIZ.lef`
@@ -129,3 +129,4 @@ In OpenLane / LibreLane, hook chip PDN with
 | 0.2.1 | 2026-09-18 | One Magic extract label per pin; do not east-extend disconnected analog slivers (`vbpt`). |
 | 0.2.2 | 2026-09-19 | Fill waffle pin holes; grow `ibias` wrap seed for via2; relocate `vbpt` core label onto the vendor pad. |
 | 0.2.3 | 2026-09-20 | Join split `ibias` and `vbpt` islands on wrap met3; ship an ideal `verify/beh_model` core. |
+| 0.2.4 | 2026-09-21 | Core waffleDrop, inset dnwell, li/met1/met2 blockage, and slotted dummy poly/diff; strip solid analog plates. |
