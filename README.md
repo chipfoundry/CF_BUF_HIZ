@@ -2,8 +2,8 @@
 
 > High-impedance differential input buffer
 
-Draft for designer review. The public GDS is an abstract; ChipFoundry
-substitutes protected full geometry at tapeout.
+The public GDS is an abstract; ChipFoundry substitutes protected full
+geometry at tapeout.
 
 This package ships an SRAM-style PG wrap `CF_BUF_HIZ` around analog leaf
 `CF_BUF_HIZ_core`.
@@ -26,14 +26,7 @@ pair with local met3. Integrators still connect one `ibias` port and one
 
 ```bash
 pip install cf-ipm
-ipm install CF_BUF_HIZ --version 0.2.5 --include-drafts
-```
-
-Until the marketplace listing is published, install from a local catalog
-override the same way `cf-sensor-afe` does:
-
-```bash
-ipm install CF_BUF_HIZ --version 0.2.5 --include-drafts --local-file ip/catalog.json
+ipm install CF_BUF_HIZ --version 0.2.6
 ```
 
 Use `hdl/gl/CF_BUF_HIZ.v` as the customer blackbox, `layout/lef/CF_BUF_HIZ.lef`
@@ -131,3 +124,4 @@ In OpenLane / LibreLane, hook chip PDN with
 | 0.2.3 | 2026-09-20 | Join split `ibias` and `vbpt` islands on wrap met3; ship an ideal `verify/beh_model` core. |
 | 0.2.4 | 2026-09-21 | Core waffleDrop, inset dnwell, li/met1/met2 blockage, and slotted dummy poly/diff; strip solid analog plates. |
 | 0.2.5 | 2026-09-25 | Core `cmm1`/`cmm2` waffleDrop (62/24, 105/52) so fillgen does not overwrite analog. LI fill-block remains `li1.blockage` 67/10. |
+| 0.2.6 | 2026-09-25 | Customer README. Marketplace listing is published. No Liberty; functional sim uses `verify/beh_model`. |
